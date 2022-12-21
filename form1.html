@@ -1,0 +1,1943 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Garcia</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <small class="text-muted">Preencha os campos a seguir</small>
+
+    <form>
+        <fieldset id="secao-1" class="secao">
+            <div class="paragrafo">
+                <label>Exercise Additional Nickname
+                <textarea data-ls-module="charCounter" required maxlength="16" class="campo"
+                    placeholder="Texto de resposta curta..." required></textarea>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset id="secao-2" class="secao">
+            <div class="paragrafo">
+                <label>Exercise Additional Identifier
+                <textarea data-ls-module="charCounter" minlength="4" maxlength="16" class="campo"
+                          placeholder="Texto de resposta curta..." required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Exercise Nickname
+                <textarea data-ls-module="charCounter" maxlength="56" class="campo" placeholder="Texto de resposta longa..."
+                          required></textarea>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset id="secao-3" class="secao">
+            <div class="paragrafo">
+                <label>Operation Code Word
+                <textarea data-ls-module="charCounter" maxlength="32" class="campo" placeholder="Texto de resposta média..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Plan Originator and Number
+                <textarea data-ls-module="charCounter" minlength="5" maxlength="35" class="campo"
+                          placeholder="Texto de resposta média..." required></textarea>
+                </label>
+            </div>
+
+
+            <div class="paragrafo">
+                <label>Option Nickname
+                <textarea data-ls-module="charCounter" maxlength="23" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Secondary Option Nickname
+                <textarea data-ls-module="charCounter" maxlength="23" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset id="secao-4" class="secao">
+            <div class="paragrafo">
+                <label>Message Text Format Identifier
+                <p class="subtitulo">Escolha uma opção abaixo:</p>
+                <select name="option" required>
+                    <option value="none">Selecione uma opção válida</option>
+                    <option value="CBRN1CHEM">CBRN 1 CHEM - CBRN 1</option>
+                    <option value="CBRN2CHEM">CBRN 2 CHEM - CBRN 2</option>
+                    <option value="CBRN3CHEM">CBRN 3 CHEM - CBRN 3</option>
+                    <option value="CBRN4CHEM">CBRN 4 CHEM - CBRN 4</option>
+                    <option value="CBRN5CHEM">CBRN 5 CHEM - CBRN 5</option>
+                    <option value="CBRN6CHEM">CBRN 6 CHEM - CBRN 6</option>
+                    <option value="CBRN1BIO">CBRN 1 BIO - CBRN 1</option>
+                    <option value="CBRN2BIO">CBRN 2 BIO - CBRN 2</option>
+                    <option value="CBRN3BIO">CBRN 3 BIO - CBRN 3</option>
+                    <option value="CBRN4BIO">CBRN 4 BIO - CBRN 4</option>
+                    <option value="CBRN5BIO">CBRN 5 BIO - CBRN 5</option>
+                    <option value="CBRN6BIO">CBRN 6 BIO - CBRN 6</option>
+                    <option value="CBRN1RAD">CBRN 1 RAD - CBRN 1</option>
+                    <option value="CBRN2RAD">CBRN 2 RAD - CBRN 2</option>
+                    <option value="CBRN3RAD">CBRN 3 RAD - CBRN 3</option>
+                    <option value="CBRN4RAD">CBRN 4 RAD - CBRN 4</option>
+                    <option value="CBRN5RAD">CBRN 5 RAD - CBRN 5</option>
+                    <option value="CBRN6RAD">CBRN 6 RAD - CBRN 6</option>
+                    <option value="CBRN1NUC">CBRN 1 NUC - CBRN 1</option>
+                    <option value="CBRN2NUC">CBRN 2 NUC - CBRN 2</option>
+                    <option value="CBRN3NUC">CBRN 3 NUC - CBRN 3</option>
+                    <option value="CBRN4NUC">CBRN 4 NUC - CBRN 4</option>
+                    <option value="CBRN5NUC">CBRN 5 NUC - CBRN 5</option>
+                    <option value="CBRN6NUC">CBRN 6 NUC - CBRN 6</option>
+                    <option value="CBRNSITREP">CBRN SITREP - CBRN</option>
+                    <option value="CBRNMIR">CBRN MIR - CBRN</option>
+                    <option value="STRIKWARN">STRIKWARN</option>
+                    <option value="HAZWARNCBRN">HAZWARN - CBRN</option>
+                    <option value="CBRNBWR">CBRN BWR - CBRN</option>
+                    <option value="CBRNEDR">CBRN EDR - CBRN</option>
+                    <option value="CBRNCDR">CBRN CDR - CBRN</option>
+                </select>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Standard of Message Text Format
+                <textarea data-ls-module="charCounter" maxlength="20" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Version of Message Text Format
+                <textarea data-ls-module="charCounter" maxlength="20" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Originator
+                <textarea data-ls-module="charCounter" maxlength="20" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Message Serial Number
+                <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <!--
+            * Adicionar Fuso Horário pelo JavaScript (Exemplo: Horário de Brasília, etc)
+            -->
+            <div class="paragrafo">
+                <label>Reference Time of Publication
+                <input type="datetime-local" class="campo" required/>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Qualifier
+                <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Serial Number of Qualifier
+                <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Digite apenas números..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Message Security Policy
+                <textarea data-ls-module="charCounter" maxlength="50" class="campo" placeholder="Texto de resposta longa..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <!--
+            * Aqui o cliente pediu duas possibilidades diferentes para ser preenchidas,
+            * então coloquei as duas para que ele escolha a preferência melhor para o uso do formulário.
+            * A diferença de um e outro são as quantidades de caracteres e os tipos.
+            -->
+            <div class="paragrafo">
+                <label>Message Security Classification #1
+                <textarea data-ls-module="charCounter" minlength="11" maxlength="17" class="campo"
+                          placeholder="Texto de resposta curta..." required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Message Security Classification #2
+                <textarea data-ls-module="charCounter" maxlength="50" class="campo" placeholder="Texto de resposta longa..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Message Security Category
+                <textarea data-ls-module="charCounter" maxlength="50" class="campo" placeholder="Texto de resposta longa..."
+                          required></textarea>
+                </label>
+            </div>
+        </fieldset>
+
+        <!--
+        * SUGESTÃO:
+        * Nesse trecho, pode-se colocar um botão de enviar (como o debaixo)
+        * e fazer uma próxima página, para que não fique um formulário enorme em uma página só.
+        -->
+        <fieldset id="secao-5" class="secao">
+            <div class="paragrafo">
+                <label>Serial Letter
+                <textarea data-ls-module="charCounter" maxlength="1" class="campo" placeholder="Digite apenas uma letra"
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Communication Type
+                <textarea data-ls-module="charCounter" minlength="3" maxlength="19" class="campo"
+                          placeholder="Texto de resposta curta..." required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Originator
+                <textarea data-ls-module="charCounter" maxlength="30" class="campo" placeholder="Texto de resposta média..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <!--
+            * Adicionar Fuso Horário pelo JavaScript (Exemplo: Horário de Brasília, etc)
+            -->
+            <div class="paragrafo">
+                <label>Date and/or Time of Reference
+                <input type="datetime-local" class="campo" required/>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Reference Serial Number
+                <textarea data-ls-module="charCounter" maxlength="30" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Special Notation
+                <textarea data-ls-module="charCounter" maxlength="5" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Signal Indicator #1
+                <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Signal Indicator #2
+                <textarea data-ls-module="charCounter" maxlength="10" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset id="secao-6" class="secao">
+            <div class="paragrafo">
+                <label>Geodetic Datum
+                <textarea data-ls-module="charCounter" minlength="3" maxlength="6" class="campo"
+                          placeholder="Texto de resposta curta..." required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>National Grid System Coordinates
+                <textarea data-ls-module="charCounter" maxlength="20" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+        </fieldset>
+        <!--
+        * Adicionar Fuso Horário pelo JavaScript, em especifíco no Horário de Zulu.
+        -->
+        <fieldset id="secao-7" class="secao">
+            <div class="paragrafo">
+                <label>Date-Time-Group in Zulu-Time
+                <input type="datetime-local" class="campo" required/>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset id="secao-8" class="secao">
+            <div class="paragrafo">
+                <label>Unit Designation Name
+                <textarea data-ls-module="charCounter" maxlength="15" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Unit Size Indicator
+                <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Geographical Entity
+                <textarea data-ls-module="charCounter" maxlength="2" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Unit Role Indicator Code 'A'
+                <textarea data-ls-module="charCounter" minlength="2" maxlength="6" class="campo"
+                          placeholder="Texto de resposta curta..." required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Unit Role Indicator Code 'B'
+                <textarea data-ls-module="charCounter" minlength="2" maxlength="6" class="campo"
+                          placeholder="Texto de resposta curta..." required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Unit Role Indicator Code 'C'
+                <textarea data-ls-module="charCounter" minlength="2" maxlength="6" class="campo"
+                          placeholder="Texto de resposta curta..." required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Unit Role Indicator Code 'D'
+                <textarea data-ls-module="charCounter" minlength="2" maxlength="6" class="campo"
+                          placeholder="Texto de resposta curta..." required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Higher Formation Name
+                <textarea data-ls-module="charCounter" maxlength="15" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Armed Service
+                <textarea data-ls-module="charCounter" maxlength="1" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Civilian Agency Code
+                <textarea data-ls-module="charCounter" minlength="2" maxlength="8" class="campo"
+                          placeholder="Texto de resposta curta..." required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Unit Identification Code
+                <textarea data-ls-module="charCounter" minlength="7" maxlength="9" class="campo"
+                          placeholder="Texto de resposta curta..." required></textarea>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset id="secao-9" class="secao">
+            <div class="paragrafo">
+                <label>Type of CBRN Report or Weather Report
+                <p class="subtitulo">Selecione uma opção abaixo:</p>
+                <select name="option" required>
+                    <option value="none">Selecione uma opção válida</option>
+                    <option value="chem">CHEM - Chemical Report</option>
+                    <option value="bio">BIO - Biological Report</option>
+                    <option value="mir">MIR - Missile Intercept Report</option>
+                    <option value="nuc">NUC - Nuclear Report</option>
+                    <option value="nkn">NKN - Not Known</option>
+                    <option value="rad">RAD - Radiological Report</option>
+                    <option value="sit">SIT - CBRN Situation Report</option>
+                    <option value="warn">WARN - CBRN Warning due to Friendly Targetting of a CBRN Infrastructure</option>
+                    <option value="bwm">BWM - CBRN Basic Wind Data Message</option>
+                    <option value="bwf">BWF - CBRN Basic Wind Data Forecast</option>
+                    <option value="edm">EDM - CBRN Effective Downwind Message</option>
+                    <option value="edf">EDF - CBRN Effective Downwind Forecast</option>
+                    <option value="cdm">CDM - CBRN Chemical Downwind Message</option>
+                    <option value="cdf">CDF - CBRN Chemical Downwind Forecast</option>
+                </select>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Validation Code
+                <textarea data-ls-module="charCounter" maxlength="10" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset id="secao-10" class="secao">
+            <div class="paragrafo">
+                <h3>ALFA</h3>
+                <label>
+                <p class="subtitulo">Geographic Location*<br>
+                <i>*OBS: Este campo só pode ser preenchido por uma <b>Agência Responsável</b>*</i></p>
+                <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Code for Originating Unit
+                <textarea data-ls-module="charCounter" maxlength="9" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Sequence Number
+                <textarea data-ls-module="charCounter" maxlength="10" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Type of Incident
+                <textarea data-ls-module="charCounter" maxlength="1" class="campo" placeholder="Digite apenas uma letra"
+                          required></textarea>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset id="secao-11" class="secao">
+            <div class="paragrafo">
+                <h3>BRAVO</h3>
+                <label>Location of Observer #1
+                <p class="subtitulo">Latitude and Longitude, Minutes, 0-4 Decimal Places.</p>
+                <textarea data-ls-module="charCounter" minlength="12" maxlength="22" class="campo"
+                          placeholder="Texto de resposta média..." required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Location of Observer #2
+                <p class="subtitulo"><b>UTM:</b> followed by Universal Transverse Mercator.</p>
+                <textarea data-ls-module="charCounter" maxlength="17" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Location of Observer #3
+                <p class="subtitulo"><b>MGRS:</b> followed by Military Grid Reference System.</p>
+                <textarea data-ls-module="charCounter" maxlength="15" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Location of Observer #4
+                <p class="subtitulo"><b>UPS:</b> followed by Universal Polar Stereographic.</p>
+                <textarea data-ls-module="charCounter" maxlength="15" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Location of Observer #5
+                <p class="subtitulo"><b>MUPS:</b> followed by Military Grid Reference System UPS.</p>
+                <textarea data-ls-module="charCounter" maxlength="13" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Location of Observer #6
+                <p class="subtitulo"><b>GRID:</b> followed by National Grid System Coordinates.</p>
+                <textarea data-ls-module="charCounter" maxlength="20" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Location of Observer #7
+                <p class="subtitulo"><b>NAME:</b> followed by Geographic Place Name.</p>
+                <textarea data-ls-module="charCounter" maxlength="30" class="campo" placeholder="Texto de resposta longa..."
+                          required></textarea>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset id="secao-12" class="secao">
+            <div class="paragrafo">
+                <h3>DELTA</h3>
+                <!--
+                * Adicionar Fuso Horário pelo JavaScript, em especifíco no Horário de Zulu.
+                -->
+                <label>Date-Time-Group of Start of Incident in Zulu-Time, Month and Year
+                <input type="datetime-local" class="campo" required/>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Date-Time-Group Incident ended in Zulu-Time, Month and Year
+                <input type="datetime-local" class="campo" required/>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset id="secao-13" class="secao">
+            <div class="paragrafo">
+                <h3>FOXTROT</h3>
+                <label> Incident Location #1
+                <p class="subtitulo">Latitude and Longitude, Minutes, 0-4 Decimal Places.</p>
+                <textarea data-ls-module="charCounter" minlength="12" maxlength="22" class="campo"
+                          placeholder="Texto de resposta média..." required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label> Incident Location #2
+                <p class="subtitulo"><b>UTM:</b> followed by Universal Transverse Mercator.</p>
+                <textarea data-ls-module="charCounter" maxlength="17" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label> Incident Location #3
+                <p class="subtitulo"><b>MGRS:</b> followed by Military Grid Reference System.</p>
+                <textarea data-ls-module="charCounter" maxlength="15" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label> Incident Location #4
+                <p class="subtitulo"><b>UPS:</b> followed by Universal Polar Stereographic.</p>
+                <textarea data-ls-module="charCounter" maxlength="15" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label> Incident Location #5
+                <p class="subtitulo"><b>MUPS:</b> followed by Military Grid Reference System UPS.</p>
+                <textarea data-ls-module="charCounter" maxlength="13" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label> Incident Location #6
+                <p class="subtitulo"><b>GRID:</b> followed by National Grid System Coordinates.</p>
+                <textarea data-ls-module="charCounter" maxlength="20" class="campo" placeholder="Texto de resposta média..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label> Incident Location #7
+                <p class="subtitulo"><b>NAME:</b> followed by Geographic Place Name</p>
+                <textarea data-ls-module="charCounter" maxlength="30" class="campo" placeholder="Texto de resposta longa..."
+                          required></textarea>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset id="secao-14" class="secao">
+            <div class="paragrafo">
+                <h3>GOLF</h3>
+                <label>Qualification of Incident
+                <p class="subtitulo">Selecione uma opção abaixo:</p>
+                <input type="radio" value="0" name="campo-radio" id="campo-radio1" required/>
+                <label for="campo-radio1">OBS - Observed</label>
+                <input type="radio" value="0" name="campo-radio" id="campo-radio2" required/>
+                <label for="campo-radio2">SUS - Suspected</label>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Type and Means of Delivery
+                <select name="option" required>
+                    <option value="none">Selecione uma opção válida</option>
+                    <option value="air">AIR - Aircraft</option>
+                    <option value="bom">BOM - Bomb (delivering Bomblets only)</option>
+                    <option value="can">CAN - Cannon</option>
+                    <option value="dev">DEV - Device</option>
+                    <option value="fff">FFF - Fuel Fabrication Facility</option>
+                    <option value="mlr">MLR - Multiple-launch Rocket System</option>
+                    <option value="mor">MOR - Mortar</option>
+                    <option value="msl">MSL - Missile</option>
+                    <option value="nkn">NKN - Not known</option>
+                    <option value="plt">PLT - Plant</option>
+                    <option value="rld">RLD - Railroad Car</option>
+                    <option value="rnp">RNP - Reactor Nuclear Plant</option>
+                    <option value="rws">RWS - Radioactive Waste Storage</option>
+                    <option value="shp">SHP - Ship</option>
+                    <option value="tir">TIR - Toxic Industrial Radiological Facility</option>
+                    <option value="tpt">TPT - Road Transport</option>
+                </select>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Number of Delivery Systems
+                <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Digite apenas números..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Type of Substance Containers
+                <select name="option" required>
+                    <option value="none">Selecione uma opção válida</option>
+                    <option value="bml">BML - Bomblets</option>
+                    <option value="bmp">BMP - Bulk Missile Paykiad (Bulk Warhead)</option>
+                    <option value="bom">BOM - Bomb</option>
+                    <option value="btl">BTL - Pressurised Gas Bottle</option>
+                    <option value="buk">BUK - Bunker</option>
+                    <option value="cmp">CMP - Canister Missile Payload (Binary agent Warhead)</option>
+                    <option value="con">CON - Generic Storage ContainerMOR - Mortar</option>
+                    <option value="drm">DRM - Nominal 200 litre Storage Drum</option>
+                    <option value="gen">GEN - Generator (Aerosol)</option>
+                    <option value="ibc">IBC - Intermediate Bulk Container</option>
+                    <option value="iso">ISO - Large ISO Container</option>
+                    <option value="mne">MNE - Mine (CBRN filled only)</option>
+                    <option value="nkn">NKN - Not known</option>
+                    <option value="nwh">NWH - Nuclear Warhead</option>
+                    <option value="pip">PIP - Pipe or pipeline</option>
+                    <option value="rct">RCT - Reactor</option>
+                    <option value="rkt">RKT - Rocket</option>
+                    <option value="shl">SHL - Shell</option>
+                    <option value="smp">SMP - Sub-munitions Missle Payload (Sub-munitions Warhead)</option>
+                    <option value="spr">SPR - Spray (tank)</option>
+                    <option value="stk">STK - Stockpile</option>
+                    <option value="tnk">TNK - Storage Tank (stationary or mobile)</option>
+                    <option value="tor">TOR - Torpedo</option>
+                    <option value="wst">WST - Waste</option>
+                </select>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Substance Container or Release #1
+                <p class="subtitulo">Escolha a unidade e em seguida digite a(s) quantidade(s):<br>
+                <i>Release Quantity and Unit of Weight Measurement.</i></p>
+                <select name="option" required>
+                    <option value="none">Selecione uma opção válida</option>
+                    <option value="kg">KG - Kilogram</option>
+                    <option value="kt">KT - Kiloton</option>
+                    <option value="lb">LB - Pound</option>
+                    <option value="ltn">LTN - Long Ton</option>
+                    <option value="mt">MT - Megaton</option>
+                    <option value="stn">STN - Short Ton</option>
+                    <option value="tne">TNE - Metric Ton (Tonne)</option>
+                    <option value="ton">TON - Ton</option>
+                </select>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <textarea data-ls-module="charCounter" maxlength="10" class="campo" placeholder="Digite apenas números..."
+                          required></textarea>
+            </div>
+
+            <div class="paragrafo">
+                <label>Substance Container or Release #2
+                <p class="subtitulo"><i>Total Release Quantity and Unit of Volume Measurement.</i><br></p>
+                <select name="option" required>
+                    <option value="none">Selecione uma opção válida</option>
+                    <option value="cm3">CM3 - Cubic centimetre</option>
+                    <option value="l">L - Litre</option>
+                    <option value="m3">M3 - Cubic metre</option>
+                    <option value="mm3">MM3 - Cubic milimetre</option>
+                    <option value="ml">ML - Mililitre</option>
+                </select>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Substance Container or Release #3
+                <p class="subtitulo"><i>Number of Substance Containers.</i><br></p>
+                <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Digite apenas números..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Substance Container or Release #4
+                <p class="subtitulo">Selecione uma das opções a seguir:<br><br>
+                <i>Size of Spill or Release for Chemicals.</i></p>
+                <select name="option" required>
+                    <option value="none">Selecione uma opção válida</option>
+                    <option value="smlchem">SMLCHEM - Small (200 litres/Kilogram or Less)</option>
+                    <option value="medchem">MEDCHEM - Medium (Greater than 200 Litres/Kilogram but equal to or less than
+                        1500 Litres/Kilogram)
+                    </option>
+                    <option value="lrgchem">LRGCHEM - Large (Greater than 1500 Litres/Kilogram but equal to or less than
+                        50000 Litres/Kilogram)
+                    </option>
+                    <option value="xlgchem">XLGCHEM - Extra Large (Greater than 50000 Litres/Kilogram)</option>
+                    <option value="nkn">NKN - Not known</option>
+                </select>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>
+                <p class="subtitulo">
+                <p class="subtitulo"><i>Size of Spill or Release for Biologicals.</i><br></p></p>
+                <select name="option" required>
+                    <option value="none">Selecione uma opção válida</option>
+                    <option value="smlbio">SMLBIO - Small (less than 1 Kilogram)</option>
+                    <option value="medbio">MEDBIO - Medium (Grater than 1 Kilogram but equal to or less than 10 Kilogram)
+                    </option>
+                    <option value="lrgbio">LRGBIO - Large (Greater than 10 Kilogram but equal to or less than 100
+                        Kilogram)
+                    </option>
+                    <option value="xlgbio">XLGBIO - Extra Large (Greater than 100 Kilogram)</option>
+                    <option value="nkn">NKN - Not known</option>
+                </select>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>
+                <p class="subtitulo"><i>Size of Spill or Release for Radiologicals.</i><br></p>
+                <select name="option" required>
+                    <option value="none">Selecione uma opção válida</option>
+                    <option value="smlrad">SMLRAD - Small (Evidence of Disruption/Intact Package or Device)</option>
+                    <option value="lrgrad">LRGRAD - Large (Fire/Exposed Source)</option>
+                    <option value="xlgrad">XLGRAD - Extra Large (Explosions and Fire/Damaged Package and Contamination)
+                    </option>
+                    <option value="nkn">NKN - Not known</option>
+                </select>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset id="secao-15" class="secao">
+            <div class="paragrafo">
+                <h3>GOLF C</h3>
+                <label>Type of Delivery
+                <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Digite apenas números..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>
+                <p class="subtitulo"><i>Type and Means of Delivery Estimation Method.</i><br></p>
+                <p class="lista">Responda de acordo com a lista abaixo:</p>
+                <menu>
+                    DET - Detected<br>
+                    EST - Estimated<br>
+                    INT - Intelligence based<br>
+                    MES - Measured<br>
+                    OBS - Human Observation<br>
+                    SUS - Suspected
+                </menu>
+                <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>
+                <p class="subtitulo"><i>Accuracy of Number of Delivery Systems.</i><br></p>
+                <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Digite apenas números..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>
+                <p class="subtitulo"><i>Maximum Number of Delivery Systems.</i><br></p>
+                <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Digite apenas números..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>
+                <p class="subtitulo"><i>Minimum Number of Delivery Systems.</i><br></p>
+                <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Digite apenas números..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>
+                <p class="subtitulo"><i>Number of Delivery Systems Estimation Method.<br></i></p>
+                <p class="lista">Responda de acordo com a lista abaixo:</p>
+                <menu>
+                    DET - Detected<br>
+                    EST - Estimated<br>
+                    INT - Intelligence based<br>
+                    MES - Measured<br>
+                    OBS - Human Observation<br>
+                    SUS - Suspected
+                </menu>
+                <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Delivery System Identification
+                <textarea data-ls-module="charCounter" maxlength="60" class="campo" placeholder="Texto de resposta longa..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Specific Delivery System Identification
+                <p class="subtitulo"><i>Probability of Specific Delivery System Identification.</i></p>
+                <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Digite apenas números..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>
+                <p class="subtitulo"><i>Specific Delivery System Identification Estimation Method.</i></p>
+                <p class="lista">Responda de acordo com a lista abaixo:</p>
+                <menu>
+                    DET - Detected<br>
+                    EST - Estimated<br>
+                    INT - Intelligence based<br>
+                    MES - Measured<br>
+                    OBS - Human Observation<br>
+                    SUS - Suspected
+                </menu>
+                <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Specific Substance Container Identification
+                <textarea data-ls-module="charCounter" maxlength="60" class="campo" placeholder="Texto de resposta longa..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Probability of Substance Container Identification
+                <p class="subtitulo"><i>Probability of Specific Substance Container Identification.</i></labelr>
+                <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Digite apenas números..."
+                          required></textarea>
+                </p>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>
+                <p class="subtitulo"><i>Specific Delivery System Identification Estimation Method.</i></p>
+                <p class="lista">Responda de acordo com a lista abaixo:</p>
+                <menu>
+                    DET - Detected<br>
+                    EST - Estimated<br>
+                    INT - Intelligence based<br>
+                    MES - Measured<br>
+                    OBS - Human Observation<br>
+                    SUS - Suspected
+                </menu>
+                <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Accuracy of Number of Agent Containers
+                <p class="subtitulo"><i>Accuracy of Number of Substance Containers.</i><br></p>
+                <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Digite apenas números..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Accuracy of Number of Agent Containers
+                <p class="subtitulo"><i>Maximum of Number of Substance Containers.</i><br>
+                </p>      <textarea data-ls-module="charCounter" maxlength="3" class="campo"
+                                    placeholder="Digite apenas números..." required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Accuracy of Number of Agent Containers
+                <p class="subtitulo"><i>Mininum of Number of Substance Containers.</i><br></p>
+                <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Digite apenas números..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>
+                <p class="subtitulo"><i>Number of Substance Containers Estimation Method.</i></p>
+                <p class="lista">Responda de acordo com a lista abaixo:</p>
+                <menu>
+                    DET - Detected<br>
+                    EST - Estimated<br>
+                    INT - Intelligence based<br>
+                    MES - Measured<br>
+                    OBS - Human Observation<br>
+                    SUS - Suspected
+                </menu>
+                <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>
+                <p class="subtitulo"><i>Probability of Size of Release.</i></p>
+                <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Digite apenas números..."
+                          required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>
+                <p class="subtitulo"><i>Size of Release Estimation Method.</i></p>
+                <p class="lista">Responda de acordo com a lista abaixo:</p>
+                <menu>
+                    DET - Detected<br>
+                    EST - Estimated<br>
+                    INT - Intelligence based<br>
+                    MES - Measured<br>
+                    OBS - Human Observation<br>
+                    SUS - Suspected
+                </menu>
+                <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Texto de resposta curta..."
+                          required></textarea>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset id="secao-16" class="secao">
+            <div class="paragrafo">
+                <h3>HOTEL</h3>
+                <label>Type of Nuclear Burst
+                <select name="option" required>
+                        <option value="none">Selecione uma opção válida</option>
+                        <option value="air">AIR - Air</option>
+                        <option value="nkn">NKN - Not Known</option>
+                        <option value="surf">SURF - Surface (release on ground impact)</option>
+                        <option value="subs">SUBS - Sub surface (only used in NUC Reports)</option>
+                </select>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset id="secao-17" class="secao">
+            <div class="paragrafo">
+                <h3>INDIA</h3>
+                <label>Substance Release Height #1<br>
+                    <p class="subtitulo"><i>Type of substance release height.</i></p>
+                <select name="option" required>
+                            <option value="none">Selecione uma opção válida</option>
+                            <option value="air">AIR - Air</option>
+                            <option value="nkn">NKN - Not Known</option>
+                            <option value="surf">SURF - Surface (release on ground impact)</option>
+                            <option value="subs">SUBS - Sub surface (only used in NUC Reports)</option>
+                </select>
+                </label>
+            </div>
+        </fieldset>
+
+            <div class="paragrafo">
+                <label>Substance Release Height #2<br>
+                    <p class="subtitulo"><i>Substance Release Height and Units of Measurement.</i><br>
+                    Selecione uma das opções abaixo e em seguida digite a(s) quantidade(s):</p>
+                <select name="option" required>
+                            <option value="none">Selecione uma opção válida</option>
+                            <option value="ft">FT - Feet</option>
+                            <option value="hm">HM - Hectometres (100 metres)</option>
+                            <option value="kf">KF - Kilofeet (1000 feet)</option>
+                            <option value="km">KM - Kilometres</option>
+                            <option value="m">M - Metres</option>
+                            <option value="nm">NM - Nautical Miles</option>
+                            <option value="sm">SM - Statute Miles</option>
+                            <option value="yd">YD - Yards</option>
+                </select>
+                <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Digite a(s) quantidade(s)..."
+                required></textarea>
+                </label>
+            </div>
+
+                        <!-- INÍCIO > ADICIONAR OS CAMPOS-->
+            <div class="paragrafo">
+                <label>Substance Definition #1<br>
+                    <p class="subtitulo">Escolha uma das opções abaixo:</p>
+                ************************************************
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Substance Definition #2<br>
+                    <p class="subtitulo">Escolha uma das opções abaixo:</p>
+                ************************************************
+                </label>
+            </div>
+                        <!-- FIM > ADICIONAR OS CAMPOS-->
+
+            <div class="paragrafo">
+                <label>Substance Definition #3<br>
+                    <p class="subtitulo"><i>UN/NA Identification Number (Emergency Response Guide - ERG).</i></p>
+                <textarea data-ls-module="charCounter" maxlength="4" class="campo" placeholder="Digite apenas números..."
+                    required></textarea>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Type of Persistency<br>
+                    <p class="subtitulo">Selecione uma das opções abaixo:</p>
+                    <select name="option" required>
+                        <option value="none">Selecione uma opção válida</option>
+                        <option value="per">P - Persistent</option>
+                        <option value="np">NP - Non-persistent</option>
+                        <option value="thi">T - Thickened</option>
+                        <option value="nkn">NKN - Not known</option>
+                    </select>
+                </label>
+            </div>
+
+                        <!-- INÍCIO > ADICIONAR OS CAMPOS-->
+
+            <div class="paragrafo">
+                <label>Type of Detection<br>
+                    <p class="subtitulo">Selecione uma das opções abaixo:</p>
+                ****************************************************
+                    </select>
+                </label>
+            </div>
+
+        <div class="paragrafo">
+            <label>Detection Confidence Level<br>
+                <p class="subtitulo">Selecione uma das opções abaixo:</p>
+                    <select name="option" required>
+                        <option value="none">Selecione uma opção válida</option>
+                        <option value="ind">IND - Indicative</option>
+                        <option value="pre">PRE - Presumptive</option>
+                        <option value="def">DEF - Definitive</option>
+                        <option value="evi">EVI - Evidential</option>
+                    </select>
+                </label>
+            </div>
+        </fieldset>
+                        <!-- FIM > ADICIONAR OS CAMPOS-->
+
+            <fieldset id="secao-18" class="secao">
+                <div class="paragrafo">
+                    <h3>INDIAB</h3>
+                    <label>Substance Release Height #1<br>
+                        <p class="subtitulo"><i>Probability of Release-Height.</i></p>
+    <input class="campo" oninput="v_ = this.value; if(v_.length > 5){ this.value = v_.slice(0, 5); }" onblur="v_ = this.value; if(!~v_.indexOf('.')){ vl_ = v_.length; z_ = vl_ == 1 ? '0.00' : ( vl_ == 3 ? '0' : (vl_ == 2 ? '00' : ''));this.value = v_.length < 5 && v_ != '100' ? (((v_[0] ? v_[0] : '')+(v_[1] ? v_[1]+'.' : '')+(v_[2] ? v_[2] : '')+(v_[3] ? v_[3] : '')+(v_[4] ? v_[4] : '')+z_)):('100.00')};" type="number" id="teste" step=".01" min=".01" max="100" placeholder="000,00"> <!--CAMPO DE PORCENTAGEM-->
+                    </label>
+                </div>
+
+                <div class="paragrafo">
+                    <label>Substance Release Height #2<br>
+                        <p class="subtitulo"><i>Accuracy of Substance-Release Height <b>(MININUM TO MAXIMUM)</b>.</i></p>
+                <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Texto de resposta curta..."
+                    required></textarea>
+                        </select>
+                    </label>
+                </div>
+
+            <div class="paragrafo">
+                <label>Substance Release Height #3<br>
+                    <p class="subtitulo"><i>Maximum Substance Release Height and Units of Measurement.</i><br>
+                    Digite a resposta no campo, selecione uma unidade de medida e digite o valor correspondente à unidade:</p>
+            <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Texto de resposta curta..."
+                required></textarea>
+                <select name="option" required>
+                    <option value="none">Selecione uma opção válida</option>
+                    <option value="ft">FT - Feet</option>
+                    <option value="hm">HM - Hectometres (100 metres)</option>
+                    <option value="kf">KF - Kilofeet (1000 feet)</option>
+                    <option value="km">KM - Kilometres</option>
+                    <option value="me">M - Metres</option>
+                    <option value="nm">NM - Nautical Miles</option>
+                    <option value="sm">SM - Statute Miles</option>
+                    <option value="yd">YD - Yards</option>
+            <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Digite o valor..."
+                required></textarea>
+                </select>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Substance Release Height #4<br>
+                    <p class="subtitulo"><i>Minimum Substance Release Height and Units of Measurement.</i><br>
+                    Digite a resposta no campo, selecione uma unidade de medida e digite o valor correspondente à unidade:</p>
+            <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Texto de resposta curta..."
+                required></textarea>
+                <select name="option" required>
+                    <option value="none">Selecione uma opção válida</option>
+                    <option value="ft">FT - Feet</option>
+                    <option value="hm">HM - Hectometres (100 metres)</option>
+                    <option value="kf">KF - Kilofeet (1000 feet)</option>
+                    <option value="km">KM - Kilometres</option>
+                    <option value="me">M - Metres</option>
+                    <option value="nm">NM - Nautical Miles</option>
+                    <option value="sm">SM - Statute Miles</option>
+                    <option value="yd">YD - Yards</option>
+            <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Digite o valor..."
+                required></textarea>
+                </select>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Substance Release Height #4<br>
+                    <p class="subtitulo"><i>Minimum Substance Release Height and Units of Measurement.</i><br>
+                    Digite a resposta no campo, selecione uma unidade de medida e digite o valor correspondente à unidade:</p>
+            <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Texto de resposta curta..."
+                required></textarea>
+                <select name="option" required>
+                    <option value="none">Selecione uma opção válida</option>
+                    <option value="ft">FT - Feet</option>
+                    <option value="hm">HM - Hectometres (100 metres)</option>
+                    <option value="kf">KF - Kilofeet (1000 feet)</option>
+                    <option value="km">KM - Kilometres</option>
+                    <option value="me">M - Metres</option>
+                    <option value="nm">NM - Nautical Miles</option>
+                    <option value="sm">SM - Statute Miles</option>
+                    <option value="yd">YD - Yards</option>
+            <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Digite o valor..."
+                required></textarea>
+                </select>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Substance Probability #1<br>
+                    <p class="subtitulo"><i>Probability of Type of Substance.</i></p>
+<input class="campo" oninput="v_ = this.value; if(v_.length > 5){ this.value = v_.slice(0, 5); }" onblur="v_ = this.value; if(!~v_.indexOf('.')){ vl_ = v_.length; z_ = vl_ == 1 ? '0.00' : ( vl_ == 3 ? '0' : (vl_ == 2 ? '00' : ''));this.value = v_.length < 5 && v_ != '100' ? (((v_[0] ? v_[0] : '')+(v_[1] ? v_[1]+'.' : '')+(v_[2] ? v_[2] : '')+(v_[3] ? v_[3] : '')+(v_[4] ? v_[4] : '')+z_)):('100.00')};" type="number" id="teste" step=".01" min=".01" max="100" placeholder="000,00"> <!--CAMPO DE PORCENTAGEM-->
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Substance Probability #2<br>
+                    <p class="subtitulo"><i>Probability of Substance Name.</i></p>
+<input class="campo" oninput="v_ = this.value; if(v_.length > 5){ this.value = v_.slice(0, 5); }" onblur="v_ = this.value; if(!~v_.indexOf('.')){ vl_ = v_.length; z_ = vl_ == 1 ? '0.00' : ( vl_ == 3 ? '0' : (vl_ == 2 ? '00' : ''));this.value = v_.length < 5 && v_ != '100' ? (((v_[0] ? v_[0] : '')+(v_[1] ? v_[1]+'.' : '')+(v_[2] ? v_[2] : '')+(v_[3] ? v_[3] : '')+(v_[4] ? v_[4] : '')+z_)):('100.00')};" type="number" id="teste" step=".01" min=".01" max="100" placeholder="000,00"> <!--CAMPO DE PORCENTAGEM-->
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Probability of Persistency<br>
+                    <p class="subtitulo"><i>Probability of Persistency.</i></p>
+<input class="campo" oninput="v_ = this.value; if(v_.length > 5){ this.value = v_.slice(0, 5); }" onblur="v_ = this.value; if(!~v_.indexOf('.')){ vl_ = v_.length; z_ = vl_ == 1 ? '0.00' : ( vl_ == 3 ? '0' : (vl_ == 2 ? '00' : ''));this.value = v_.length < 5 && v_ != '100' ? (((v_[0] ? v_[0] : '')+(v_[1] ? v_[1]+'.' : '')+(v_[2] ? v_[2] : '')+(v_[3] ? v_[3] : '')+(v_[4] ? v_[4] : '')+z_)):('100.00')};" type="number" id="teste" step=".01" min=".01" max="100" placeholder="000,00"> <!--CAMPO DE PORCENTAGEM-->
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Type of identification<br>
+                    <p class="subtitulo">Selecione uma das opções abaixo:</p>
+                ****************************************************
+                    </select>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset id="secao-19" class="secao">
+            <div class="paragrafo">
+                <h3>INDIAC</h3>
+                <label>Probability of Type of Agent-Release-Height #1<br>
+                    <p class="subtitulo"><i>Probability of Release-Height.</i></p>
+<input class="campo" oninput="v_ = this.value; if(v_.length > 5){ this.value = v_.slice(0, 5); }" onblur="v_ = this.value; if(!~v_.indexOf('.')){ vl_ = v_.length; z_ = vl_ == 1 ? '0.00' : ( vl_ == 3 ? '0' : (vl_ == 2 ? '00' : ''));this.value = v_.length < 5 && v_ != '100' ? (((v_[0] ? v_[0] : '')+(v_[1] ? v_[1]+'.' : '')+(v_[2] ? v_[2] : '')+(v_[3] ? v_[3] : '')+(v_[4] ? v_[4] : '')+z_)):('100.00')};" type="number" id="teste" step=".01" min=".01" max="100" placeholder="000,00"> <!--CAMPO DE PORCENTAGEM-->
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Probability of Type of Agent-Release-Height #2<br>
+                    <p class="subtitulo"><i>Accuracy of Substance-Release Height <b>(MININUM TO MAXIMUM)</b>.</i></p>
+            <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Texto de resposta curta..."
+                required></textarea>
+                    </select>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Probability of Type of Agent-Release-Height #3<br>
+                    <p class="subtitulo"><i>Maximum Substance Release Height and Units of Measurement.</i><br><br>
+                    Digite a resposta no campo, selecione uma unidade de medida e digite o valor correspondente à unidade:</p>
+            <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Texto de resposta curta..."
+                required></textarea>
+                <select name="option" required>
+                    <option value="none">Selecione uma opção válida</option>
+                    <option value="ft">FT - Feet</option>
+                    <option value="hm">HM - Hectometres (100 metres)</option>
+                    <option value="kf">KF - Kilofeet (1000 feet)</option>
+                    <option value="km">KM - Kilometres</option>
+                    <option value="me">M - Metres</option>
+                    <option value="nm">NM - Nautical Miles</option>
+                    <option value="sm">SM - Statute Miles</option>
+                    <option value="yd">YD - Yards</option>
+            <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Digite o valor..."
+                required></textarea>
+                </select>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Probability of Type of Agent-Release-Height #4<br>
+                    <p class="subtitulo"><i>Minimum Substance Release Height and Units of Measurement.</i><br><br>
+                    Digite a resposta no campo, selecione uma unidade de medida e digite o valor correspondente à unidade:</p>
+            <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Texto de resposta curta..."
+                required></textarea>
+                <select name="option" required>
+                    <option value="none">Selecione uma opção válida</option>
+                    <option value="ft">FT - Feet</option>
+                    <option value="hm">HM - Hectometres (100 metres)</option>
+                    <option value="kf">KF - Kilofeet (1000 feet)</option>
+                    <option value="km">KM - Kilometres</option>
+                    <option value="me">M - Metres</option>
+                    <option value="nm">NM - Nautical Miles</option>
+                    <option value="sm">SM - Statute Miles</option>
+                    <option value="yd">YD - Yards</option>
+            <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Digite o valor..."
+                required></textarea>
+                </select>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Probability of UN/NA Identification Number #1<br>
+                    <p class="subtitulo"><i>Probability of Type of Substance.</i></p>
+<input class="campo" oninput="v_ = this.value; if(v_.length > 5){ this.value = v_.slice(0, 5); }" onblur="v_ = this.value; if(!~v_.indexOf('.')){ vl_ = v_.length; z_ = vl_ == 1 ? '0.00' : ( vl_ == 3 ? '0' : (vl_ == 2 ? '00' : ''));this.value = v_.length < 5 && v_ != '100' ? (((v_[0] ? v_[0] : '')+(v_[1] ? v_[1]+'.' : '')+(v_[2] ? v_[2] : '')+(v_[3] ? v_[3] : '')+(v_[4] ? v_[4] : '')+z_)):('100.00')};" type="number" id="teste" step=".01" min=".01" max="100" placeholder="000,00"> <!--CAMPO DE PORCENTAGEM-->
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Probability of UN/NA Identification Number #2<br>
+                    <p class="subtitulo"><i>Probability of Substance Name.</i></p>
+<input class="campo" oninput="v_ = this.value; if(v_.length > 5){ this.value = v_.slice(0, 5); }" onblur="v_ = this.value; if(!~v_.indexOf('.')){ vl_ = v_.length; z_ = vl_ == 1 ? '0.00' : ( vl_ == 3 ? '0' : (vl_ == 2 ? '00' : ''));this.value = v_.length < 5 && v_ != '100' ? (((v_[0] ? v_[0] : '')+(v_[1] ? v_[1]+'.' : '')+(v_[2] ? v_[2] : '')+(v_[3] ? v_[3] : '')+(v_[4] ? v_[4] : '')+z_)):('100.00')};" type="number" id="teste" step=".01" min=".01" max="100" placeholder="000,00"> <!--CAMPO DE PORCENTAGEM-->
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Probability of UN/NA Identification Number #3<br>
+                    <p class="subtitulo"><i>Probability of UN/NA Identification Number (Emergency Response Guide - ERG).</i></p>
+<input class="campo" oninput="v_ = this.value; if(v_.length > 5){ this.value = v_.slice(0, 5); }" onblur="v_ = this.value; if(!~v_.indexOf('.')){ vl_ = v_.length; z_ = vl_ == 1 ? '0.00' : ( vl_ == 3 ? '0' : (vl_ == 2 ? '00' : ''));this.value = v_.length < 5 && v_ != '100' ? (((v_[0] ? v_[0] : '')+(v_[1] ? v_[1]+'.' : '')+(v_[2] ? v_[2] : '')+(v_[3] ? v_[3] : '')+(v_[4] ? v_[4] : '')+z_)):('100.00')};" type="number" id="teste" step=".01" min=".01" max="100" placeholder="000,00"> <!--CAMPO DE PORCENTAGEM-->
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Probability of Type of Persistency<br>
+                    <p class="subtitulo"><i>Probability of Type of Persistency.</i></p>
+<input class="campo" oninput="v_ = this.value; if(v_.length > 5){ this.value = v_.slice(0, 5); }" onblur="v_ = this.value; if(!~v_.indexOf('.')){ vl_ = v_.length; z_ = vl_ == 1 ? '0.00' : ( vl_ == 3 ? '0' : (vl_ == 2 ? '00' : ''));this.value = v_.length < 5 && v_ != '100' ? (((v_[0] ? v_[0] : '')+(v_[1] ? v_[1]+'.' : '')+(v_[2] ? v_[2] : '')+(v_[3] ? v_[3] : '')+(v_[4] ? v_[4] : '')+z_)):('100.00')};" type="number" id="teste" step=".01" min=".01" max="100" placeholder="000,00"> <!--CAMPO DE PORCENTAGEM-->
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Type of identification<br>
+                    <p class="subtitulo">Selecione uma das opções abaixo:</p>
+                ****************************************************
+                    </select>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset id="secao-20" class="secao">
+            <div class="paragrafo">
+                <h3>INDIAR</h3>
+                <label>Type of Source<br>
+                    <p class="subtitulo">Selecione uma das opções abaixo:</p>
+                    <select name="option" required>
+                        <option value="none">Selecione uma opção válida</option>
+                        <option value="fnf">FNF - Fresh Nuclear Fuel</option>
+                        <option value="ins">INS - Industrial Source</option>
+                        <option value="mds">MDS - Medical Source</option>
+                        <option value="mws">MWS - Military Weapon Source</option>
+                        <option value="nkn">NKN - Not Known</option>
+                        <option value="rdps">RDPS - Radiological Device Point Source</option>
+                        <option value="rwm">RWM - Radiological Waste Material</option>
+                        <option value="srf">SRF - Spent Reactor Fuel</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Identification of the Material #1<br>
+                    <p class="subtitulo">IUPAC Isotope Name.</p>
+                ****************************************************
+                    </select>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Identification of the Material #2<br>
+                    <p class="subtitulo">UN/NA Identification Number (Emergency Response Guide - ERG).</p>
+                    <textarea data-ls-module="charCounter" maxlength="4" class="campo" placeholder="Digite apenas números..."
+                    required></textarea>
+                    </select>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Identification of the Material #3<br>
+                    <p class="subtitulo"><i>Type of Radioactivity.</i><br>
+                        Selecione uma das opções abaixo:</p>
+                    <select name="option" required>
+                        <option value="none">Selecione uma opção válida</option>
+                        <option value="alp">ALP - Alpha</option>
+                        <option value="bet">BET - Beta</option>
+                        <option value="gam">GAM - Gamma</option>
+                        <option value="mxr">MXR - Mixture of Radiation Emissions</option>
+                        <option value="neu">NEU - Neutron</option>
+                        <option value="nkn">NKN - Not Known</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Radioactive Half Life<br>
+                    <p class="subtitulo">Selecione uma ou mais opções abaixo:</p>
+                    <small><small>
+                        <!-- TABELA CHECKBOX -->
+                        <table><tr><td>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox3" required/>
+                        <label for="campo-checkbox3">Co-60 - Cobalt, Half-life 5.27 years, Principal Emissions BETA, GAMMA, Decay Rate 1.50E-05/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox4" required/>
+                        <label for="campo-checkbox4">Cs-137 - Caesium, Half-life 30 years, Principal Emissions BETA, GAMMA, Decay Rate 2.64E-06/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox5" required/>
+                        <label for="campo-checkbox5">Ir-192 - Iridium, Half-life 73.8 days, Principal Emissions BETA, GAMMA, Decay Rate 3.91E-04/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox6" required/>
+                        <label for="campo-checkbox6">Am-241 - Americium, Half-life 432.20 years, Principal Emissions ALPHA, GAMMA, NEUTRON (Am/Be), Decay Rate 1.83E-07/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox7" required/>
+                        <label for="campo-checkbox7">Se-75, Selenium, Half-life119.80 days, Principal Emissions BETA, GAMMA, Decay Rate 2.41E-04/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox8" required/>
+                        <label for="campo-checkbox8">Sr-90/Y-90 - Strontium/Ytrium, Half-life 28.79 years, Principal Emissions BETA, Decay Rate 2.75E-06/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox9" required/>
+                        <label for="campo-checkbox9">U-235+ - Uranium - Half-life 7.00E+08 years, Principal Emissions ALPHA, BETA, GAMMA, Decay Rate 1.13E-13/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox10" required/>
+                        <label for="campo-checkbox10">Pu-238 - Plutonium, Half-Life 87.70 years, Principal Emissions ALPHA, LOW ENERGY X-RAYS, Decay Rate 9.02E-07/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox11" required/>
+                        <label for="campo-checkbox11">Pu-239 - Plutonium, Half-life 24000 years, Principal Emissions ALPHA, LOW ENERGY X-RAYS, Decay Rate 3.30E-09/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox12" required/>
+                        <label for="campo-checkbox12">Pu-240 - Plutonium, Half-life 6570 years, Principal Emissions ALPHA, NEUTRON, Decay Rate 1.20E-08/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox13" required/>
+                        <label for="campo-checkbox13">C-14 - Carbon, Half-life 5734 years, Principal Emissions BETA, Decay Rate 1.38E-08/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox14" required/>
+                        <label for="campo-checkbox14">P-32 - Phosphor, Half-life 14.62 days, Principal Emissions BETA, Decay Rate 1.98E-03/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox15" required/>
+                        <label for="campo-checkbox15">P-33 - Phosphor, Half-life 25.30 days, Principal Emissions BETA, Decay Rate 1.14E-03/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox16" required/>
+                        <label for="campo-checkbox16">Cl-36 - Chloride, Half-life 3.00E+05 years, Principal Emissions BETA, Decay Rate 2.64E-10/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox17" required/>
+                        <label for="campo-checkbox17">Cr-51 - Chrome, Half-life 27.70 days, Principal Emissions GAMMA, Decay Rate 1.04E-03/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox18" required/>
+                        <label for="campo-checkbox18">Co-57 - Cobalt, Half-life 271.80 days, Principal Emissions GAMMA, Decay Rate 1.06E-04/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox19" required/>
+                        <label for="campo-checkbox19">Co-58 - Cobalt, Half-life 70.80 days, Principal Emissions GAMMA, Decay Rate 4.08E-04/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox20" required/>
+                        <label for="campo-checkbox20">Ga-67 - Gallium, Half-life 78.30 hours, Principal Emissions GAMMA, Decay Rate 8.85E-03/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox21" required/>
+                        <label for="campo-checkbox21">Mo-99/Tc-99m - Molybdenium/Technetium, Half-life 65.90 hours, Principal Emissions BETA, GAMMA, Decay Rate 1.05E-02/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox22" required/>
+                        <label for="campo-checkbox22">Cd-109 - Cadmium, Half-life 453 days, Principal Emissions GAMMA, Decay Rate 6.38E-05/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox23" required/>
+                        <label for="campo-checkbox23">In-111 - Indium, Half-life 2.8 days, Principal Emissions GAMMA, Decay Rate 1.03E-02/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox24" required/>
+                        <label for="campo-checkbox24">I-123 - Iodine, Half-life 13.30 hours, Principal Emissions GAMMA, Decay Rate 5.21E-02/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox25" required/>
+                        <label for="campo-checkbox25">I-125 - Iodine, Half-life 59.40 days, Principal Emissions GAMMA, Decay Rate 4.86E-04/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox26" required/>
+                        <label for="campo-checkbox26">I-131 - Iodine, Half-life 8.00 days, Principal Emissions BETA, GAMMA, Decay Rate 3.61E-03/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox27" required/>
+                        <label for="campo-checkbox27">Ba-133 - Barium, Half-life 10.70 years, Principal Emissions GAMMA, Decay Rate 7.39E-06/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox28" required/>
+                        <label for="campo-checkbox28">Pm-147 - Promethium, Half-life 2.60 years, Principal Emissions BETA, GAMMA, Decay Rate 3.04E-05/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox29" required/>
+                        <label for="campo-checkbox29">Eu-152 - Europium, Half-life 13.20 years, Principal Emissions BETA, GAMMA, Decay Rate 5.99E-06/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox30" required/>
+                        <label for="campo-checkbox30">Yb-169 - Ytterbium, Half-life 32.00 days, Principal Emissions BETA, GAMMA, Decay Rate 9.0E-04/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox31" required/>
+                        <label for="campo-checkbox31">Tm-170 - Thulium, Half-life 128.60 days, Principal Emissions BETA, GAMMA, Decay Rate 2.25E-04/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox32" required/>
+                        <label for="campo-checkbox32">Au-198 - Gold, Half-life 2.70 days, Principal Emissions BETA, GAMMA, Decay Rate 1.07E-02/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox33" required/>
+                        <label for="campo-checkbox33">Tl-201 - Thallium, Half-life 72.90 hours, Principal Emissions GAMMA, Decay Rate 9.51E-03/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox34" required/>
+                        <label for="campo-checkbox34">Po-210 - Polonium, Half-life 128.40 days, Principal Emissions ALPHA, GAMMA, Decay Rate 2.25E-04/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox35" required/>
+                        <label for="campo-checkbox35">Ra-226+ - Radon, Half-life 1600 years, Principal Emissions ALPHA, BETA, GAMMA, Decay Rate 4.95E-08/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox36" required/>
+                        <label for="campo-checkbox36">Dep U+ - Depleted Uranium, Half-life 4.50E+09 years, Principal Emissions ALPHA, BETA, GAMMA, Decay Rate 1.75E-14/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox37" required/>
+                        <label for="campo-checkbox37">Cm-244 - Curium, Half-life 18.10 years, Principal Emissions ALPHA,  LOW ENERGY X-RAYS, NEUTRON, Decay Rate 4.37E-06/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox38" required/>
+                        <label for="campo-checkbox38">Cf-252 - Californium, Half-life 2.64 years, Principal Emissions ALPHA, LOW ENERGY X-RAYS, NEUTRON, Decay Rate 3.00E-05/hour
+                        </label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox39" required/>
+                        <label for="campo-checkbox39">Nat U+ - Natural Uranium, Half-life 4.50E+10 years, Principal Emissions ALPHA, BETA, GAMMA, Decay Rate 1.76E-15/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox40" required/>
+                        <label for="campo-checkbox40">Th-232+ - Thorium, Half-life 1.40E+10 years, Principal Emissions ALPHA, BETA, GAMMA, Decay Rate 5.65E-15/hour</label>
+                        <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox41" required/>
+                        <label for="campo-checkbox41">K-40 - Potassium, Half-life 1.30E+09 years, Principal Emissions BETA, GAMMA, Decay Rate 6.09E-14/hour</label>
+                        </table></td></tr>
+                    </small></small>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Means of Radiological Detection<br>
+                    <p class="subtitulo">Selecione uma das opções abaixo:</p>
+                    <select name="option" required>
+                        <option value="none">Selecione uma opção válida</option>
+                        <option value="acd">ACD - Automated Chemical Detector</option>
+                        <option value="elisa">ELISA - Enzyme-linked Immunosorbent Assay</option>
+                        <option value="fpd">FPD - Flame Photometric Detector</option>
+                        <option value="gc">GC - Gas Chromatograph</option>
+                        <option value="gspec">GSPEC - Gamma Spectrometer</option>
+                        <option value="hgsm">HGSM - Hand held Gamma Survey Monitor</option>
+                        <option value="icpd">ICPD - Inductively Coupled Plasma Detector</option>
+                        <option value="ims">IMS - Ion Mobility Spectrometer</option>
+                        <option value="ir">IR - Infrared Spectroscope</option>
+                        <option value="lc">LC - Liquid Chromatograph</option>
+                        <option value="lidar">LIDAR - Light Detection and Ranging</option>
+                        <option value="ms">MS - Mass Spectrometer</option>
+                        <option value="nmr">NMR - Nuclear Magnetic Resonance</option>
+                        <option value="page">PAGE - Poly Acrylamide Gel Electrophoresis</option>
+                        <option value="pc">PC - Particle counting</option>
+                        <option value="pcr">PCR - Polymerase Chain Reaction</option>
+                        <option value="pd">PD - Personal Dosimeter</option>
+                        <option value="pid">PID - Photo Ionisation Detector</option>
+                        <option value="rcp">RCP - Radiological Contamination Probe</option>
+                        <option value="rds">RDS - Remote Detection System</option>
+                        <option value="ria">RIA - Radioimunoassay</option>
+                        <option value="sbd">SBD - Simple Bio Detection Kit</option>
+                        <option value="sbds">SBDS - Satelite-Based Detection System</option>
+                        <option value="scd">SCD - Simple Chemical Detection Kit</option>
+                        <option value="vbrad">VBRAD - Vehicle Borne Radiation Detector</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+                <label>Type of identification<br>
+                    <p class="subtitulo">Selecione uma das opções abaixo:</p>
+                    <select name="option" required>
+                        <option value="none">Selecione uma opção válida</option>
+                        <option value="prov">PROV - Provisional identification</option>
+                        <option value="conf">CONF - Confirmed identification</option>
+                        <option value="unam">UNAM - Unambiguous identification</option>
+                    </select>
+                </label>
+            </div>
+
+            <fieldset id="secao-21" class="secao">
+                <div class="paragrafo">
+                    <h3>JULIET</h3>
+                    <label>Campo Flash-to-Bang time in seconds
+                    <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Digite apenas números..."
+                        required></textarea>
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset id="secao-22" class="secao">
+                <div class="paragrafo">
+                    <h3>KILO</h3>
+                    <label>Crater Indicator
+                        <p class="subtitulo">Selecione uma das opções abaixo:</p>
+                        <select name="option" required>
+                            <option value="none">Selecione uma opção válida</option>
+                            <option value="crater">CRATER - Crater present</option>
+                            <option value="nkn">NKN - Not Known</option>
+                            <option value="nocrater">NONE - No Crater present</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="paragrafo">
+                    <label>Crater Width<br>
+                        <p class="subtitulo">
+                        Digite a resposta no campo, selecione uma unidade de medida e digite o valor correspondente à unidade:</p>
+                <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Texto de resposta curta..."
+                    required></textarea>
+                    <select name="option" required>
+                        <option value="none">Selecione uma opção válida</option>
+                        <option value="ft">FT - Feet</option>
+                        <option value="hm">HM - Hectometres (100 metres)</option>
+                        <option value="kf">KF - Kilofeet (1000 feet)</option>
+                        <option value="km">KM - Kilometres</option>
+                        <option value="me">M - Metres</option>
+                        <option value="nm">NM - Nautical Miles</option>
+                        <option value="sm">SM - Statute Miles</option>
+                        <option value="yd">YD - Yards</option>
+                <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Digite o valor..."
+                    required></textarea>
+                    </select>
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset id="secao-23" class="secao">
+                <div class="paragrafo">
+                    <h3>LIMA</h3>
+                    <label>Angular Cloud Width (at H + 5 Min)
+                        <p class="subtitulo">Selecione uma das opções das unidades abaixo e digite o valor correspondente à unidade:</p>
+                        <input type="radio" value="0" name="campo-radio" id="campo-radio3" required/>
+                        <label for="campo-radio3">DEG - Degrees</label>
+                        <input type="radio" value="0" name="campo-radio" id="campo-radio4" required/>
+                        <label for="campo-radio4">MIL - Mils</label>
+                <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Digite o valor..."
+                        required></textarea>
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset id="secao-24" class="secao">
+                <div class="paragrafo">
+                    <h3>MIKE</h3>
+                    <label>Cloud Section
+                        <p class="subtitulo">Selecione uma das opções abaixo:</p>
+                        <input type="radio" value="0" name="campo-radio" id="campo-radio5" required/>
+                        <label for="campo-radio5">BOT - Cloud Bottom</label>
+                        <input type="radio" value="0" name="campo-radio" id="campo-radio6" required/>
+                        <label for="campo-radio6">TOP - Cloud Top</label>
+                    </label>
+                </div>
+
+                <div class="paragrafo">
+                    <label>Cloud Angle
+                        <p class="subtitulo">Selecione uma das opções das unidades abaixo e digite o valor correspondente à unidade:</p>
+                        <input type="radio" value="0" name="campo-radio" id="campo-radio7" required/>
+                        <label for="campo-radio7">DEG - Degrees</label>
+                        <input type="radio" value="0" name="campo-radio" id="campo-radio8" required/>
+                        <label for="campo-radio8">MIL - Mils</label>
+                <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Digite o valor..."
+                        required></textarea>
+                    </label>
+                </div>
+
+                <div class="paragrafo">
+                    <label>Cloud Height
+                        <p class="subtitulo">Selecione uma das opções das unidades abaixo e digite o valor correspondente à unidade:</p>
+                        <select name="option" required>
+                            <option value="none">Selecione uma opção válida</option>
+                            <option value="ft">FT - Feet</option>
+                            <option value="hm">HM - Hectometres (100 metres)</option>
+                            <option value="kf">KF - Kilofeet (1000 feet)</option>
+                            <option value="km">KM - Kilometres</option>
+                            <option value="me">M - Metres</option>
+                            <option value="nm">NM - Nautical Miles</option>
+                            <option value="sm">SM - Statute Miles</option>
+                            <option value="yd">YD - Yards</option>
+                        </select>
+                <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Digite o valor..."
+                        required></textarea>
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset id="secao-25" class="secao">
+                <div class="paragrafo">
+                    <h3>MIKECB</h3>
+                    <label>Description of TIM or Storage Estimation Method
+                        <p class="lista">Responda de acordo com a lista abaixo:</p>
+                        <menu>
+                            DET - Detected<br>
+                            EST - Estimated<br>
+                            INT - Intelligence based<br>
+                            MES - Measured<br>
+                            OBS - Human Observation<br>
+                            SUS - Suspected
+                        </menu>
+                        <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Texto de resposta curta..."
+                            required></textarea>
+                    </label>
+                </div>
+
+                <div class="paragrafo">
+                    <label>Release Direction
+                        <p class="subtitulo">Selecione uma das opções das unidades abaixo e digite o valor correspondente à unidade:</p>
+                        <select name="option" required>
+                            <option value="none">Selecione uma opção válida</option>
+                            <option value="dgg">DGG - Degrees/Grid North</option>
+                            <option value="dgm">DGM - Degrees/Magnetic North</option>
+                            <option value="dgt">DGT - Degrees/True North</option>
+                            <option value="mlg">MLG - Mils/Grid North</option>
+                            <option value="mlm">MLM - Mils/Magnetic North</option>
+                            <option value="mlt">MLT - Mils/True North</option>
+                        </select>
+                <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Digite o valor..."
+                        required></textarea>
+                    </label>
+                </div>
+
+                <div class="paragrafo">
+                    <label>Status of TIM or Storage Estimation Method
+                        <p class="lista">Responda de acordo com a lista abaixo:</p>
+                        <menu>
+                            DET - Detected<br>
+                            EST - Estimated<br>
+                            INT - Intelligence based<br>
+                            MES - Measured<br>
+                            OBS - Human Observation<br>
+                            SUS - Suspected
+                        </menu>
+                        <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Texto de resposta curta..."
+                            required></textarea>
+                    </label>
+                </div>
+
+                <div class="paragrafo">
+                    <label>Accuracy of Release Direction #1
+                        <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Texto de resposta curta..."
+                            required></textarea>
+                        </label>
+                    </div>
+
+                    <div class="paragrafo">
+                        <label>Accuracy of Release Direction #2
+                            <p class="subtitulo"><i>Maximum Release Direction.</i><br><br>
+                                Selecione uma das opções das unidades abaixo e digite o valor correspondente à unidade:</p>
+                            <select name="option" required>
+                                <option value="none">Selecione uma opção válida</option>
+                                <option value="dgg">DGG - Degrees/Grid North</option>
+                                <option value="dgm">DGM - Degrees/Magnetic North</option>
+                                <option value="dgt">DGT - Degrees/True North</option>
+                                <option value="mlg">MLG - Mils/Grid North</option>
+                                <option value="mlm">MLM - Mils/Magnetic North</option>
+                                <option value="mlt">MLT - Mils/True North</option>
+                            </select>
+                    <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Digite o valor..."
+                            required></textarea>
+                        </label>
+                    </div>
+
+                    <div class="paragrafo">
+                        <label>Accuracy of Release Direction #3
+                            <p class="subtitulo"><i>Minimum Release Direction.</i><br><br>
+                                Selecione uma das opções das unidades abaixo e digite o valor correspondente à unidade:</p>
+                            <select name="option" required>
+                                <option value="none">Selecione uma opção válida</option>
+                                <option value="dgg">DGG - Degrees/Grid North</option>
+                                <option value="dgm">DGM - Degrees/Magnetic North</option>
+                                <option value="dgt">DGT - Degrees/True North</option>
+                                <option value="mlg">MLG - Mils/Grid North</option>
+                                <option value="mlm">MLM - Mils/Magnetic North</option>
+                                <option value="mlt">MLT - Mils/True North</option>
+                            </select>
+                    <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Digite o valor..."
+                            required></textarea>
+                        </label>
+                    </div>
+
+                    <div class="paragrafo">
+                        <label>Accuracy of Release Direction #4
+                            <p class="subtitulo"><i>Release Direction Estimation Method.</i></p>
+                            <p class="lista">Responda de acordo com a lista abaixo:</p>
+                            <menu>
+                                DET - Detected<br>
+                                EST - Estimated<br>
+                                INT - Intelligence based<br>
+                                MES - Measured<br>
+                                OBS - Human Observation<br>
+                                SUS - Suspected
+                            </menu>
+                            <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Texto de resposta curta..."
+                                required></textarea>
+                        </label>
+                    </div>
+
+                    <div class="paragrafo">
+                        <label>Release Rate in Kilograms per Second
+                            <textarea data-ls-module="charCounter" maxlength="4" class="campo" placeholder="Digite apenas números..."
+                            required></textarea>
+                        </label>
+                    </div>
+
+                    <div class="paragrafo">
+                        <label>Accuracy of Release Rate #1
+                            <p class="subtitulo"><i>Accuracy of Release Rate in Kilograms per Second.</i></p>
+                            <textarea data-ls-module="charCounter" maxlength="4" class="campo" placeholder="Digite apenas números..."
+                            required></textarea>
+                        </label>
+                    </div>
+
+                    <div class="paragrafo">
+                        <label>Accuracy of Release Rate #2
+                            <p class="subtitulo"><i>Maximum Release Rate in Kilograms per Second.</i></p>
+                            <textarea data-ls-module="charCounter" maxlength="5" class="campo" placeholder="Digite apenas números..."
+                            required></textarea>
+                        </label>
+                    </div>
+
+                    <div class="paragrafo">
+                        <label>Accuracy of Release Rate #3
+                            <p class="subtitulo"><i>Minimum Release Rate in Kilograms per Second.</i></p>
+                            <textarea data-ls-module="charCounter" maxlength="5" class="campo" placeholder="Digite apenas números..."
+                            required></textarea>
+                        </label>
+                    </div>
+
+                    <div class="paragrafo">
+                        <label>Accuracy of Release Rate #4
+                            <p class="subtitulo"><i>Release Rate Estimation Method.</i></p>
+                            <p class="lista">Responda de acordo com a lista abaixo:</p>
+                            <menu>
+                                DET - Detected<br>
+                                EST - Estimated<br>
+                                INT - Intelligence based<br>
+                                MES - Measured<br>
+                                OBS - Human Observation<br>
+                                SUS - Suspected
+                            </menu>
+                            <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Texto de resposta curta..."
+                                required></textarea>
+                        </label>
+                    </div>
+
+                    <div class="paragrafo">
+                        <label>Initial Temperature
+                            <p class="subtitulo"><i>Minimum Release Direction.</i>
+                                Selecione uma das opções das unidades abaixo e digite o valor correspondente à unidade:</p>
+                            <input type="radio" value="0" name="campo-radio" id="campo-radio9" required/>
+                            <label for="campo-radio9">C - Celsius</label>
+                            <input type="radio" value="0" name="campo-radio" id="campo-radio10" required/>
+                            <label for="campo-radio10">F - Fahrenheit</label>
+                    <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Digite o valor..."
+                            required></textarea>
+                        </label>
+                    </div>
+
+                    <div class="paragrafo">
+                        <label>Accuracy of Initial Temperature #1
+                            <p class="subtitulo"><i>Accuracy of Initial Temperature.</i></p>
+                            <textarea data-ls-module="charCounter" maxlength="6" class="campo" placeholder="Digite apenas números..."
+                            required></textarea>
+                        </label>
+                    </div>
+
+                    <div class="paragrafo">
+                        <label>Accuracy of Initial Temperature #2
+                            <p class="subtitulo"><i>Maximum Initial Temperature.</i><br><br>
+                                Selecione uma das opções das unidades abaixo e digite o valor correspondente à unidade:</p>
+                            <input type="radio" value="0" name="campo-radio" id="campo-radio9" required/>
+                            <label for="campo-radio9">C - Celsius</label>
+                            <input type="radio" value="0" name="campo-radio" id="campo-radio10" required/>
+                            <label for="campo-radio10">F - Fahrenheit</label>
+                    <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Digite o valor..."
+                            required></textarea>
+                        </label>
+                    </div>
+
+                    <div class="paragrafo">
+                        <label>Accuracy of Initial Temperature #3
+                            <p class="subtitulo"><i>Minimum Initial Temperature.</i><br><br>
+                                Selecione uma das opções das unidades abaixo e digite o valor correspondente à unidade:</p>
+                            <input type="radio" value="0" name="campo-radio" id="campo-radio9" required/>
+                            <label for="campo-radio9">C - Celsius</label>
+                            <input type="radio" value="0" name="campo-radio" id="campo-radio10" required/>
+                            <label for="campo-radio10">F - Fahrenheit</label>
+                    <textarea data-ls-module="charCounter" maxlength="7" class="campo" placeholder="Digite o valor..."
+                            required></textarea>
+                        </label>
+                    </div>
+
+                    <div class="paragrafo">
+                        <label>Accuracy of Release Rate #4
+                            <p class="subtitulo"><i>Initial Temperature Estimation Method.</i></p>
+                            <p class="lista">Responda de acordo com a lista abaixo:</p>
+                            <menu>
+                                DET - Detected<br>
+                                EST - Estimated<br>
+                                INT - Intelligence based<br>
+                                MES - Measured<br>
+                                OBS - Human Observation<br>
+                                SUS - Suspected
+                            </menu>
+                            <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Texto de resposta curta..."
+                                required></textarea>
+                        </label>
+                    </div>
+
+                    <div class="paragrafo">
+                        <label>Pool Size
+                            <p class="subtitulo">Selecione uma das opções das unidades abaixo e digite o valor correspondente à unidade:</p>
+                            <select name="option" required>
+                                <option value="none">Selecione uma opção válida</option>
+                                <option value="ft">FT - Feet</option>
+                                <option value="hm">HM - Hectometres (100 metres)</option>
+                                <option value="kf">KF - Kilofeet (1000 feet)</option>
+                                <option value="km">KM - Kilometres</option>
+                                <option value="me">M - Metres</option>
+                                <option value="nm">NM - Nautical Miles</option>
+                                <option value="sm">SM - Statute Miles</option>
+                                <option value="yd">YD - Yards</option>
+                            </select>
+                    <textarea data-ls-module="charCounter" maxlength="5" class="campo" placeholder="Digite o valor..."
+                            required></textarea>
+                        </label>
+                    </div>
+
+                    <div class="paragrafo">
+                        <label>Accuracy of Pool Size #1
+                            <textarea data-ls-module="charCounter" maxlength="5" class="campo" placeholder="Digite apenas números..."
+                            required></textarea>
+                        </label>
+                    </div>
+
+                    <div class="paragrafo">
+                        <label>Accuracy of Pool Size #2
+                            <p class="subtitulo"><i>Maximum Pool Size.</i></p>
+                            <select name="option" required>
+                                <option value="none">Selecione uma opção válida</option>
+                                <option value="ft">FT - Feet</option>
+                                <option value="hm">HM - Hectometres (100 metres)</option>
+                                <option value="kf">KF - Kilofeet (1000 feet)</option>
+                                <option value="km">KM - Kilometres</option>
+                                <option value="me">M - Metres</option>
+                                <option value="nm">NM - Nautical Miles</option>
+                                <option value="sm">SM - Statute Miles</option>
+                                <option value="yd">YD - Yards</option>
+                            </select>
+                            <textarea data-ls-module="charCounter" maxlength="5" class="campo" placeholder="Digite apenas números..."
+                            required></textarea>
+                        </label>
+                    </div>
+
+                    <div class="paragrafo">
+                        <label>Accuracy of Pool Size #3
+                            <p class="subtitulo"><i>Minimum Pool Size.</i></p>
+                            <select name="option" required>
+                                <option value="none">Selecione uma opção válida</option>
+                                <option value="ft">FT - Feet</option>
+                                <option value="hm">HM - Hectometres (100 metres)</option>
+                                <option value="kf">KF - Kilofeet (1000 feet)</option>
+                                <option value="km">KM - Kilometres</option>
+                                <option value="me">M - Metres</option>
+                                <option value="nm">NM - Nautical Miles</option>
+                                <option value="sm">SM - Statute Miles</option>
+                                <option value="yd">YD - Yards</option>
+                            </select>
+                            <textarea data-ls-module="charCounter" maxlength="5" class="campo" placeholder="Digite apenas números..."
+                            required></textarea>
+                        </label>
+                    </div>
+
+                    <div class="paragrafo">
+                        <label>Accuracy of Pool Size #4
+                            <p class="subtitulo"><i>Pool Size Estimation Method.</i></p>
+                            <p class="lista">Responda de acordo com a lista abaixo:</p>
+                            <menu>
+                                DET - Detected<br>
+                                EST - Estimated<br>
+                                INT - Intelligence based<br>
+                                MES - Measured<br>
+                                OBS - Human Observation<br>
+                                SUS - Suspected
+                            </menu>
+                            <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Texto de resposta curta..."
+                                required></textarea>
+                        </label>
+                    </div>
+            </fieldset>
+
+            <fieldset id="secao-26" class="secao">
+                <div class="paragrafo">
+                    <h3>MIKER</h3>
+                    <label>Description of Incident
+                        <select name="option" required>
+                            <option value="none">Selecione uma opção válida</option>
+                            <option value="ardd">ARDD - Activated Radiological Dispersion Device</option>
+                            <option value="cloud">CLOUD - Visible Cloud</option>
+                            <option value="dpc">DPC - Damaged Package and Contamination</option>
+                            <option value="esd">ESD - Evidence of Site Disruption</option>
+                            <option value="exfire">EXFIRE - Explosions and Fire</option>
+                            <option value="exs">EXS - Exposed Source</option>
+                            <option value="fire">FIRE - Burning Fire</option>
+                            <option value="int">INT - Intact Package or Device</option>
+                            <option value="inwat">INWAT - Substance spilled into water</option>
+                            <option value="leak">LEAK - Continuous flow from Damaged Pipe or Container</option>
+                            <option value="liquid">LIQUID - Liquid</option>
+                            <option value="mslint">MSLINT - Missile Intercept</option>
+                            <option value="nardd">NARDD - Non Activated Radiological Dispersion Device</option>
+                            <option value="pool">POOL - Large Quantity of Still Liquid</option>
+                            <option value="rup">RUP - Catastrophic rupture of a tank</option>
+                            <option value="spill">SPILL - Smart Quantity of Still Liquid</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="paragrafo">
+                    <label>Status of Incident
+                        <p class="subtitulo">Selecione uma das opções abaixo:</p>
+                        <input type="radio" value="0" name="campo-radio" id="campo-radio11" required/>
+                        <label for="campo-radio11">CONT - Continuous</label>
+                        <input type="radio" value="0" name="campo-radio" id="campo-radio12" required/>
+                        <label for="campo-radio12">PUFF - Single Release of a Cloud</label>
+                        <input type="radio" value="0" name="campo-radio" id="campo-radio13" required/>
+                        <label for="campo-radio13">SPRAY - Spraying</label>
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset id="secao-27" class="secao">
+                <div class="paragrafo">
+                    <h3>NOVEMBER</h3>
+                    <label>Estimated Nuclear Yield in Kilotons
+                        <textarea data-ls-module="charCounter" maxlength="6" class="campo" placeholder="Digite apenas números..."
+                        required></textarea>
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset id="secao-28" class="secao">
+                <div class="paragrafo">
+                    <h3>OSCAR</h3>
+                    <label>Date Time Group for estimated contour lines
+                        <input type="datetime-local" class="campo" required/>
+                        <textarea data-ls-module="charCounter" maxlength="14" class="campo" placeholder="Texto de resposta curta..."
+                        required></textarea>
+                    </label>
+                </div>
+            </fieldset>
+
+                            <!--AGUARDANDO NOVOS CAMPOS-->
+            <fieldset id="secao-29" class="secao">
+                <div class="paragrafo">
+                    <h3>PAPAA</h3>
+                    <label>
+
+                    </label>
+                </div>
+            </fieldset>
+
+        <div class="final">
+            <p>Desejar enviar esse formulário?<br> Selecione 'Enviar' ou 'Limpar' para reiniciar.</p></div>
+
+        <div id="buttons">
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>
