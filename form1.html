@@ -939,7 +939,7 @@
         <fieldset id="secao-16" class="secao">
             <div class="paragrafo">
                 <h3>HOTEL</h3>
-                <label>Type of Nuclear Burst
+                <label>Type of Nuclear Burst*
                 <select name="option" required>
                         <option value="none">Selecione uma opção válida</option>
                         <option value="air">AIR - Air</option>
@@ -954,8 +954,8 @@
         <fieldset id="secao-17" class="secao">
             <div class="paragrafo">
                 <h3>INDIA</h3>
-                <label>Substance Release Height #1<br>
-                    <p class="subtitulo"><i>Type of substance release height.</i></p>
+                <label>Substance Release Height #1</label>
+                <p class="subtitulo"><i>Type of substance release height.</i></p>
                 <select name="option" required>
                             <option value="none">Selecione uma opção válida</option>
                             <option value="air">AIR - Air</option>
@@ -963,9 +963,7 @@
                             <option value="surf">SURF - Surface (release on ground impact)</option>
                             <option value="subs">SUBS - Sub surface (only used in NUC Reports)</option>
                 </select>
-                </label>
             </div>
-        </fieldset>
 
             <div class="paragrafo">
                 <label>Substance Release Height #2<br>
@@ -987,21 +985,152 @@
                 </label>
             </div>
 
-                        <!-- INÍCIO > ADICIONAR OS CAMPOS-->
             <div class="paragrafo">
-                <label>Substance Definition #1<br>
+                <label>Substance Definition #1</label></div>
                     <p class="subtitulo">Escolha uma das opções abaixo:</p>
-                ************************************************
+                    <div class="caixa-esquerda">
+                <select name="option-1" required>
+                            <option value="subtitulo-opcao">CHEMICAL</option>
+                            <option value="blod">BLOD - Blood Agent</option>
+                            <option value="chok">Choking Agent</option>
+                            <option value="gagent">G - G Agent</option>
+                            <option value="hmustard">H - Mustard Agent</option>
+                            <option value="incp">INCP - Incapacitating Agent</option>
+                            <option value="irt">Irritant</option>
+                            <option value="nerv">NERV - Nerve Agent</option>
+                            <option value="nil-qbrn4">No substance detected*</option>
+                            <option value="nkn">NKN - Not Known</option>
+                            <option value="otr">OTR - Other substance*</option>
+                            <!-- PERMITIR CAIXA DE TEXTO AO SELECIONAR ESSA OPÇÃO COM 30 CARACTERES -->
+                            <option value="pent">PENT - Penetrating Agent</option>
+                            <option value="t-thicken">T - Thicken Agent</option>
+                            <option value="tic-toxic">TIC- Toxic Industrial Chemical</option>
+                            <option value="v-agent">V - V Agent</option>
+                            <option value="vmt-vomiting">VMT - Vomiting Agent</option>
+                    </div>
+                </select>
+
+                    <div class="caixa-central">
+                <select name="option-2" required>
+                            <option value="subtitulo-opcao">BIOLOGICAL</option>
+                            <option value="bac">BAC - Bacterial</option>
+                            <option value="bio">BIO - Biological</option>
+                            <option value="cla">CLA - Chlamydia</option>
+                            <option value="nil-qbrn4">NIL - No substance detected*</option>
+                            <option value="nkn">NKN - Not Known</option>
+                            <option value="otr">Other substance</option>
+                            <!-- PERMITIR CAIXA DE TEXTO AO SELECIONAR ESSA OPÇÃO COM 30 CARACTERES -->
+                            <option value="ric">RIC - Rickettsiae</option>
+                            <option value="tib">TIB - Toxic Industrial Biological</option>
+                            <option value="tox">TOX - Toxin</option>
+                            <option value="vir">VIR - Viral</option>
+                </select>
+                    </div>
+
+                    <div class="caixa-direita">
+                <select name="option-3" required>
+                            <option value="subtitulo-opcao">NUCLEAR</option>
+                            <option value="fl">FL - Nuclear Weapon Fallout</option>
+                            <option value="nkn">NKN - Not Known</option>
+                            <option value="nwh">NWH - Nuclear Warhead</option>
+                </select>
+                    </div>
                 </label>
             </div>
 
-            <div class="paragrafo">
-                <label>Substance Definition #2<br>
+                        <div class="paragrafo">
+                <label>Substance Definition #2</label></div>
                     <p class="subtitulo">Escolha uma das opções abaixo:</p>
-                ************************************************
-                </label>
-            </div>
-                        <!-- FIM > ADICIONAR OS CAMPOS-->
+                    <div class="caixa-esquerda-2">
+                        <select name="option-1" required>
+                                    <option value="subtitulo-opcao">CHEMICAL</option>
+                                    <option value="ac">Hydrogen Cianide</option>
+                                    <option value="bz">BZ - Quinuclidinyl benzilate</option>
+                                    <option value="cg">CG - Phosgene</option>
+                                    <option value="ck">CK - Cyanogen Chloride</option>
+                                    <option value="cx">CX - Phosgene Oxime</option>
+                                    <option value="dp">DP - Di-Phosgene</option>
+                                    <option value="ga">GA - Tabun</option>
+                                    <option value="gb">GB - Sarin</option>
+                                    <option value="gd">GD - Soman</option>
+                                    <option value="gf">GF - Cyclo-Sarin</option>
+                                    <option value="hd">HD - Mustard Distilled</option>
+                                    <option value="hl">HL - Mustard Lewisite</option>
+                                    <option value="hn">HN - Nitrogen Mustard</option>
+                                    <option value="l">L - Lewisite</option>
+                                    <option value="ps">PS - Chloropicrin</option>
+                                    <option value="sa">SA - Arsin</option>
+                                    <option value="tg"> TG - Tear Gas</option>
+                                    <option value="vx">VX - VX</option>
+                            </div>
+                        </select>
+        
+                            <div class="caixa-central-1">
+                        <select name="option-2" required>
+                                    <option value="subtitulo-opcao">BIOLOGICAL</option>
+                                    <option value="antb">Bacillus Anthracis</option>
+                                    <option value="brub">BRUB - Brucella SPP</option>
+                                    <option value="vicb">VICB - Vibrio Cholerae</option>
+                                    <option value="escb">ESCB - Escherichia Coli</option>
+                                    <option value="ritb">RITB - Rickettsia Typhi</option>
+                                    <option value="bumb">BUMB - Burkholderia Mallei</option>
+                                    <option value="bupm">BUPM - Burkholderia Pseudomallei</option>
+                                    <option value="ypeb">YPEB - Yersinia Pestis</option>
+                                    <option value="cbub">CBUB - Coxiella Burnetii</option>
+                                    <option value="ricb">RICB - Rickettsia Rickettsii</option>
+                                    <option value="salb">SALB - Salmonella SPP</option>
+                                    <option value="otsb">OTSB - Orientia Tsutsugamushi</option>
+                                    <option value="sdyb">SDYB - Dhigella Dysenteriae</option>
+                                    <option value="frtb">FRTB - Francisella Tularensis</option>
+                                    <option value="satb">SATB - Salmonella Typhi</option>
+                                    <option value="junv">JUNV - Junin Virus</option>
+                                    <option value="macv">MACV - Machupo Virus</option>
+                                    <option value="chiv">CHIV - Chikungunya Virus</option>
+                                    <option value="cchv">CCHV - Crimean-Congo Hemorrhagic Fever Virus</option>
+                                    <option value="ebov">EBOV - Ebola Virus</option>
+                                    <option value="eeev">EEEV - Eastern Equine Encephalomyelitis Virus</option>
+                                    <option value="etbv">ETBV - European Tick Borne Encephalitis Virus</option>
+                                    <option value="infv">INFV - Influenza Virus</option>
+                                    <option value="hanv">HANV - Hantaviruses</option>
+                                    <option value="lasv">LASV - Lassa Virus</option>
+                                    <option value="marv">MARV - Marburg Virus</option>
+                                    <option value="monv">MONV - Monkeypox Virus</option>
+                                    <option value="ohfv">OHFV - Omsk Hemorrhagic Fever Virus</option>
+                                    <option value="rvfv">RVFV - Rift Valley Fever Virus</option>
+                                    <option value="flav">FLAV - Flaviviruses</option>
+                                    <option value="varv">VARV - Variola Virus</option>
+                                    <option value="veev">VEEV - Venezuelan Equine Encephalitis Virus</option>
+                                    <option value="weev">WEEV - Western Equine Encephalitis Virus</option>
+                                    <option value="yelv">YELV - Yellow Fever Virus</option>
+                                    <option value="aflt">AFLT - Aflatoxins</option>
+                                    <option value="bott">BOTT - Botulinum Toxins</option>
+                                    <option value="clpt">CLPT - Clostridium Perfringens Toxins</option>
+                                    <option value="palt">PALT - Palytoxin</option>
+                                    <option value="rict">RICT - Ricins</option>
+                                    <option value="saxt">SAXT - Saxitoxins</option>
+                                    <option value="stet">STET - Staphylococcal Enterotoxins</option>
+                                    <option value="tett">TETT - Tetradotoxin</option>
+                                    <option value="trmt">TRMT - Tricothecene mycotoxins</option>
+                        </select>
+                            </div>
+        
+                            <div class="caixa-central-2">
+                                <select name="option-3" required>
+                                            <option value="subtitulo-opcao">RADIOLOGICAL</option>
+                                            <option value="131">I131 - IODINE 131</option>
+                                            <option value="depu">DEPU - Depleted Uranium</option>
+                                            <option value="natu">NATU - Natural Uranium</option>
+                                            <option value="232">TH232 - Thorium</option>
+                                            <option value="k40">K40 - Potassium</option>
+                                </select>
+                            </div>
+
+                            <div class="caixa-direita-2">
+                        <select name="option-4" required>
+                                    <option value="subtitulo-opcao">NUCLEAR</option>
+                                    <option value="mxr">MXR - Mixture of Radiation Emissions</option>
+                        </select>
+                            </div></div>
 
             <div class="paragrafo">
                 <label>Substance Definition #3<br>
@@ -1024,15 +1153,127 @@
                 </label>
             </div>
 
-                        <!-- INÍCIO > ADICIONAR OS CAMPOS-->
 
             <div class="paragrafo">
-                <label>Type of Detection<br>
-                    <p class="subtitulo">Selecione uma das opções abaixo:</p>
-                ****************************************************
-                    </select>
+                <label>Type of Detection</label><br>
+                    <p class="subtitulo">Selecione uma ou mais opções abaixo a partir das tabelas a seguir:
+                        <br><br>
+                            <label><strong>TYPE OF DETECTION</strong></p>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">AS - Aerial Survey</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">DL - Deployed Laboratory</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">MPDS - Manned Point Detection System</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">MSDS - Manned Stand-off Detection System</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">MSVY - Manned Survey</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">OTR - Other</label>
+                <!-- COLOCAR UMA CAIXA DE TEXTO DE RESPOSTA COM 30 CARACTERES AO SELECIONAR ESSA OPÇÃO -->
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">RD - Remote Detection</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">SBD - Satellite-Based Detection</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">UAS - Unmanned Ground Survey</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">UMDS - Unmmaned Detection System</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">UMPDS - Unmmaned Point Detection</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">UMSVY - Unmanned Survey</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">UMSDS - Unmanned Stand-off Detection</label>
                 </label>
             </div>
+
+            <div class="paragrafo">
+            <p class="subtitulo">
+                <label><strong>MEANS OF DETECTION AND IDENTIFICATION</strong></label></p>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">ACD - Automated Chemical Detector</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">ELISA - Enzyme-linked Immunosorbent Assay</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">FPD - Flame Photometric Detector</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">GC - Gas Chromatograph</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">GSPEC - Gamma Spectrometer</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">HGSM - Hand held Gamma Survey Monitor</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">ICPD - Inductively Coupled Plasma Detector</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">IMS -Ion Mobility Spectrometer</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">IR - Infrared Spectroscope</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">LC - Liquid Chromatograph</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">LIDAR - Light Detection and Ranging</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">MS - Mass Spectrometer</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">NMR - Nuclear Magnetic Resonance</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">PAGE - Poly Acrylamide Gel Electrophoresis</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">PC - Particle Counting</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">PCR - Polymerase Chain Reaction</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">PD - Personal Dosimeter</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">PID - Photo Ionisation Detector</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">RCP - Radiological Contamination Probe</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">RDS - Remote Detection System</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">RIA - Radioimunoassay</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">SBD - Simple Bio Detection Kit</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">SBDS - Satelite-Based Detection System</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">SCD - Simple Chemical Detection Kit</label>
+                <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+                <label for="campo-checkbox-all">VBRAD - Vehicle Borne Radiation Detector</label>
+                </label>
+            </div>
+
+            <div class="paragrafo">
+            <p class="subtitulo">
+                <label><strong>TYPE OF SAMPLE</strong></p></label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">LIQ - Liquid sample</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">SOIL - Soil sample</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">SOLID - Solid sample</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">VAP - Vapour</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">VEG - Vegetation sample</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">WATER - Water sample</label>
+            </label>
+        </div>
+
+            <div class="paragrafo">
+            <p class="subtitulo">
+                <label><strong>TYPE OF IDENTIFICATION</strong></p></label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">PROV - Provisional identification</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">CONF - Confirmed identification</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">UNAM - Unambiguous identification</label>
+            </label>
+        </div>
 
         <div class="paragrafo">
             <label>Detection Confidence Level<br>
@@ -1047,7 +1288,6 @@
                 </label>
             </div>
         </fieldset>
-                        <!-- FIM > ADICIONAR OS CAMPOS-->
 
             <fieldset id="secao-18" class="secao">
                 <div class="paragrafo">
@@ -1155,9 +1395,125 @@
             </div>
 
             <div class="paragrafo">
-                <label>Type of identification<br>
-                    <p class="subtitulo">Selecione uma das opções abaixo:</p>
-                ****************************************************
+                <label>Type of identification*<br>
+                    <p class="subtitulo">Selecione uma ou mais opções abaixo:
+                    <br><br>
+                    <strong>TYPE OF DETECTION</strong></p>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">AS - Aerial Survey</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">DL - Deployed laboratory</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">MPDS - Manned Point Detection System</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">MSDS - Manned Stand-off Detection System</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">MSVY - Manned Survey</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">OTR - Other</label>
+            <!-- COLOCAR UMA CAIXA DE TEXTO QUANDO ESSA OPÇÃO FOR SELECIONADA -->
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">RD - Remote Detection</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">SBD - Satellite-Based Detection</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">UAS - Unmanned Aerial Survey</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">UGS - Unmanned Ground Survey</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">UMDS - Unmanned Detection System</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">UMPDS - Unmanned Point Detection</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">UMSVY - Unmanned Survey</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">UMSDS - Unmanned Stand-off Detection</label>
+            </label>
+        </div>
+
+            <div class="paragrafo">
+                    <label><p class="subtitulo"><strong>MEANS OF DETECTION AND IDENTIFICATION</strong></p>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">ACD - Automated Chemical Detector</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">ELISA - Enzyme-linked Immunosorbent Assay</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">FPD - Flame Photometric Detector</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">GC - Gas Chromatograph</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">GSPEC - Gamma Spectrometer</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">HGSM - Hand held Gamma Survey Monitor</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">ICPD - Inductively Coupled Plasma Detector</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">IMS - Ion Mobility Spectrometer</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">IR - Infrared Spectroscope</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">LC - Liquid Chromatograph</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">LIDAR - Light Detection and Ranging</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">MS - Mass Spectrometer</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">NMR - Nuclear Magnetic Resonance</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">PAGE - Poly Acrylamide Gel Electrophoresis</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">PC - Particle counting</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">PCR - Polymerase Chain Reaction</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">PD - Personal Dosimeter</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">PID - Photo Ionisation Detector</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">RCP - Radiological Contamination Probe</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">RDS - Remote Detection System</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">RIA - Radioimunoassay</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">SBD - Simple Bio Detection Kit</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">SBDS - Satelite-Based Detection System</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">SCD - Simple Chemical Detection Kit</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">VBRAD - Vehicle Borne Radiation Detector</label>
+                    </label>
+                    </div>
+
+            <div class="paragrafo">
+                    <label><p class="subtitulo"><strong>TYPE OF SAMPLE</strong></p>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">LIQ - Liquid sample</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">SOIL - Soil sample</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">SOLID - Solid sample</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">VAP - Vapour</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">VEG - Vegetation sample</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">WATER - Water sample</label>
+                    </label>
+                    </div>
+
+            <div class="paragrafo">
+                    <label><p class="subtitulo"><strong>TYPE OF IDENTIFICATION</strong></p>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">PROV - Provisional identification</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">CONF - Confirmed identification</label>
+            <input type="checkbox" value="0" name="campo-checkbox" id="campo-checkbox-all" required/>
+            <label for="campo-checkbox-all">UNAM - Unambiguous identification</label>
+                    </label>
+                    </div>
+
                     </select>
                 </label>
             </div>
@@ -1254,7 +1610,7 @@
             </div>
 
             <div class="paragrafo">
-                <label>Type of identification<br>
+                <label>Type of identification*<br>
                     <p class="subtitulo">Selecione uma das opções abaixo:</p>
                 ****************************************************
                     </select>
@@ -1439,7 +1795,7 @@
             </div>
 
             <div class="paragrafo">
-                <label>Type of identification<br>
+                <label>Type of identification*<br>
                     <p class="subtitulo">Selecione uma das opções abaixo:</p>
                     <select name="option" required>
                         <option value="none">Selecione uma opção válida</option>
@@ -1447,13 +1803,14 @@
                         <option value="conf">CONF - Confirmed identification</option>
                         <option value="unam">UNAM - Unambiguous identification</option>
                     </select>
+                </fieldset>
                 </label>
             </div>
 
             <fieldset id="secao-21" class="secao">
                 <div class="paragrafo">
                     <h3>JULIET</h3>
-                    <label>Campo Flash-to-Bang time in seconds
+                    <label>Campo Flash-to-Bang time in seconds*
                     <textarea data-ls-module="charCounter" maxlength="3" class="campo" placeholder="Digite apenas números..."
                         required></textarea>
                     </label>
@@ -1463,7 +1820,7 @@
             <fieldset id="secao-22" class="secao">
                 <div class="paragrafo">
                     <h3>KILO</h3>
-                    <label>Crater Indicator
+                    <label>Crater Indicator*
                         <p class="subtitulo">Selecione uma das opções abaixo:</p>
                         <select name="option" required>
                             <option value="none">Selecione uma opção válida</option>
@@ -1500,7 +1857,7 @@
             <fieldset id="secao-23" class="secao">
                 <div class="paragrafo">
                     <h3>LIMA</h3>
-                    <label>Angular Cloud Width (at H + 5 Min)
+                    <label>Angular Cloud Width (at H + 5 Min)*
                         <p class="subtitulo">Selecione uma das opções das unidades abaixo e digite o valor correspondente à unidade:</p>
                         <input type="radio" value="0" name="campo-radio" id="campo-radio3" required/>
                         <label for="campo-radio3">DEG - Degrees</label>
@@ -1525,7 +1882,7 @@
                 </div>
 
                 <div class="paragrafo">
-                    <label>Cloud Angle
+                    <label>Cloud Angle*
                         <p class="subtitulo">Selecione uma das opções das unidades abaixo e digite o valor correspondente à unidade:</p>
                         <input type="radio" value="0" name="campo-radio" id="campo-radio7" required/>
                         <label for="campo-radio7">DEG - Degrees</label>
@@ -1559,7 +1916,7 @@
             <fieldset id="secao-25" class="secao">
                 <div class="paragrafo">
                     <h3>MIKECB</h3>
-                    <label>Description of TIM or Storage Estimation Method
+                    <label>Description of TIM or Storage Estimation Method*
                         <p class="lista">Responda de acordo com a lista abaixo:</p>
                         <menu>
                             DET - Detected<br>
@@ -1864,7 +2221,7 @@
             <fieldset id="secao-26" class="secao">
                 <div class="paragrafo">
                     <h3>MIKER</h3>
-                    <label>Description of Incident
+                    <label>Description of Incident*
                         <select name="option" required>
                             <option value="none">Selecione uma opção válida</option>
                             <option value="ardd">ARDD - Activated Radiological Dispersion Device</option>
@@ -1903,7 +2260,7 @@
             <fieldset id="secao-27" class="secao">
                 <div class="paragrafo">
                     <h3>NOVEMBER</h3>
-                    <label>Estimated Nuclear Yield in Kilotons
+                    <label>Estimated Nuclear Yield in Kilotons*
                         <textarea data-ls-module="charCounter" maxlength="6" class="campo" placeholder="Digite apenas números..."
                         required></textarea>
                     </label>
@@ -1913,7 +2270,7 @@
             <fieldset id="secao-28" class="secao">
                 <div class="paragrafo">
                     <h3>OSCAR</h3>
-                    <label>Date Time Group for estimated contour lines
+                    <label>Date Time Group for estimated contour lines*
                         <input type="datetime-local" class="campo" required/>
                         <textarea data-ls-module="charCounter" maxlength="14" class="campo" placeholder="Texto de resposta curta..."
                         required></textarea>

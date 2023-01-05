@@ -139,6 +139,63 @@ label {
     font-family: verdana;
 }
 
+    /* SELECT ÁREA INDIA 
+    * Substance Definition #1
+    */
+
+.caixa-esquerda {
+    display: flex;
+    margin: left;
+    padding: 10px 150px 10px;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.caixa-central {
+    display: flex;
+    margin: 0px 10px 0px;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.caixa-direita {
+    display: flex;
+    margin: right;
+    justify-content: space-between;
+    width: 500px;
+}
+
+    /* Substance Definition #2 */
+
+.caixa-central-1 {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    width: 720px;
+}
+
+.caixa-central-2 {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    width: 730px;
+}
+
+.caixa-esquerda-2 {
+    display: flex;
+    margin: left;
+    padding: 0px 20px;
+    justify-content: space-between;
+    width: 720px;
+}
+
+.caixa-direita-2 {
+    display: flex;
+    margin: right;
+    justify-content: space-between;
+    width: 720px;
+}
+
     /* CHECKBOX */
 input[type="checkbox"] {
     display: none;
